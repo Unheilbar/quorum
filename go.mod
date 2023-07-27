@@ -1,9 +1,10 @@
-module github.com/ethereum/go-ethereum
+module github.com/Unheilbar/quorum
 
 go 1.15
 
 // Quorum - Replace Go modules that use modifications done by us
 replace github.com/coreos/etcd => github.com/Consensys/etcd v3.3.13-quorum197+incompatible
+
 
 // End Quorum
 
